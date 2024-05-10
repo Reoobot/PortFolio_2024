@@ -1,0 +1,210 @@
+/* Estilos generales */
+* {
+    font-family: "Raleway", sans-serif;
+}
+
+
+p {
+    font-family: "Life Savers", serif;
+    font-size: 1.3rem;
+    margin-top: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin-top: 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 15vw;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+    color: rgb(30, 86, 119);
+}
+
+h4 {
+    font-size: 6rem;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #f0f0f0;
+}
+
+/* Elementos anchototal */
+.anchototal {
+    background: grey no-repeat top center;
+    background-size: cover;
+    color: white;
+    text-shadow: 0 2px 6px black;
+    padding: 20px;
+}
+
+.contenedor {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+button, a{
+    text-decoration: none;
+    color: rgb(73, 63, 71);
+    width: 100px;
+}
+
+button:hover {
+    background: rgb(155, 155, 158);
+}
+
+.contenedor1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+@media only screen and (max-width: 868px) {
+    .contenedor1 {
+        display: grid;
+        grid-template-columns: 2fr  1fr 1fr;
+        width: 100%;
+        background-color: blue;
+        border: solid;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+  
+}
+
+iframe {
+   width: 100%; 
+  height: 300px;
+}
+
+.mitad,
+.tercio1,
+.tercio2 {
+    float: left;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+.red{
+
+border-radius: 20px;
+box-shadow: rgb(89, 88, 88) 1px 1px 10px 1px;
+
+overflow: hidden;
+}
+
+.tercio1 {
+    width: 33.3%;
+}
+
+.tercio2 {
+    width: 66.6%;
+}
+
+img,
+video {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.redonda {
+    width: 200px;
+    height: 200px; 
+    border-radius: 50%;
+    overflow: hidden;
+}
+.parallax {
+    background-attachment: fixed;
+}
+
+/* Barra de navegación */
+nav {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    background: rgb(168, 182, 21) !important;
+    text-align: center;
+    padding: 5px !important;
+}
+@media only screen and (max-width: 768px) {
+    nav {
+        padding: 10px 0; 
+    }
+    nav a {
+        display: block; 
+        padding: 10px;
+    }
+}
+
+/* ELEMENTOS */
+
+header {
+    background-image: url("../img/header.png") !important;
+    height: 100vh;
+    padding-top: 60vh !important;
+}
+
+#gris {
+    background-image: url("../img/gris.jpg");
+    padding-top: 30vh;
+}
+
+#color {
+    background-image: url("../img/gaba.jpg");
+    padding-top: 30vh;
+    filter: grayscale(100%);
+}
+
+#bateria,
+p {
+    text-align: center;
+}
+
+footer {
+    background-image: url("../img/cuatro.jpg") !important;
+    padding-top: 110vh !important;
+} 
+
+footer h3 {
+    color: white;
+}
+
+.columnas {
+    column-count: 2;
+    padding-left: 50px;
+}
+
+
+/* BARRA DE NAVEGACION */
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 5px 20px;
+}
+
+nav a:hover {
+    background: black;
+}
+
+
