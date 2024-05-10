@@ -206,5 +206,9 @@ nav a {
 nav a:hover {
     background: black;
 }
-
-
+.inicio{
+    background-color: rgb(38, 49, 68);
+    padding: 10px;
+    font-size: 1rem;
+    box-shadow: white 1px 1px 15px 0px;
+}
