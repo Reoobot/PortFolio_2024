@@ -57,4 +57,8 @@ My journey in computer science has led me to develop a passion for cybersecurity
 
 ## Projects
 - Detection Lab
+<<<<<<< HEAD
 - SOC Automation Project
+=======
+- SOC Automation Project
+>>>>>>> 66e6e4b268658c71f678901093b432e9020977b0
